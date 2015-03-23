@@ -1,25 +1,13 @@
 # Ember-cli-cropper
 
-This README outlines the details of collaborating on this Ember addon.
+This is npm package for ember-cli-cropper addon.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+* `npm install --save-dev ember-cli-cropper`
+* `ember g ember-cli-cropper`
 
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+## Usage
+ In your handlebars templates:
+```
+{ember-cli-cropper source=imageSource crossorigin=true options='{"aspectRatio": 1,"minContainerWidth": 400,"minContainerHeight": 300, "minCropBoxWidth": 150, "minCropBoxHeight": 150}' }}
