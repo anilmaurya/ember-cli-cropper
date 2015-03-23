@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-cropper",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Ember cli addon for cropper (https://github.com/fengyuanchen/cropper).",
   "directories": {
     "doc": "doc",
