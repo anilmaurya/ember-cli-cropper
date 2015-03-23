@@ -10,4 +10,4 @@ This is npm package for ember-cli-cropper addon.
 ## Usage
  In your handlebars templates:
 ```
-{ember-cli-cropper source=imageSource crossorigin=true options='{"aspectRatio": 1,"minContainerWidth": 400,"minContainerHeight": 300, "minCropBoxWidth": 150, "minCropBoxHeight": 150}' }}
+{{ember-cli-cropper source=imageSource crossorigin=true options='{"aspectRatio": 1,"minContainerWidth": 400,"minContainerHeight": 300, "minCropBoxWidth": 150, "minCropBoxHeight": 150}' }}
