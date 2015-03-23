@@ -14,6 +14,6 @@
     "qunit": "~1.17.1"
   },
   "devDependencies": {
-    "cropper": "~0.9.1"
+    "cropper": "~0.7.9"
   }
 }
