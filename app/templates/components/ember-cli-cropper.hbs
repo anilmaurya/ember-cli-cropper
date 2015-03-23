@@ -1,0 +1,8 @@
+<div class="img-container">
+  {{#if crossorigin}}
+    <img {{bind-attr src=source}} crossorigin="anonymous">
+  {{else}}
+    <img {{bind-attr src=source}}>
+  {{/if}}
+</div> 
+
