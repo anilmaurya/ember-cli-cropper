@@ -3,6 +3,6 @@ module.exports = {
   },
 
   afterInstall: function() {
-    return this.addBowerPackageToProject('cropper', '0.7.9');
+    return this.addBowerPackageToProject('cropper', '0.9.0');
   }
 };
